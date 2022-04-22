@@ -1,0 +1,16 @@
+diff --git a/node_modules/@fluentui/react-provider/package.json b/node_modules/@fluentui/react-provider/package.json
+index b8eee68..01432a8 100644
+--- a/node_modules/@fluentui/react-provider/package.json
++++ b/node_modules/@fluentui/react-provider/package.json
+@@ -57,6 +57,11 @@
+       "types": "./lib/index.d.ts",
+       "import": "./lib/index.js",
+       "require": "./lib-commonjs/index.js"
++    },
++    "./lib/components/FluentProvider/useThemeStyleTag": {
++      "types": "./lib/components/FluentProvider/useThemeStyleTag.d.ts",
++      "import": "./lib/components/FluentProvider/useThemeStyleTag.js",
++      "require": "./lib-commonjs/components/FluentProvider/useThemeStyleTag.js"
+     }
+   }
+ }
